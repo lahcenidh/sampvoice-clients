@@ -59,7 +59,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: sampvoice-R1
+          name: sampvoice-R1.zip
           path: dist/*
 
   build-r3:
@@ -100,7 +100,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: sampvoice-R3
+          name: sampvoice-R3.zip
           path: dist/*
 
   build-dl:
@@ -141,5 +141,5 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: sampvoice-DL
+          name: sampvoice-DL.zip
           path: dist/*
