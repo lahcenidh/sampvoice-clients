@@ -169,4 +169,4 @@ To build the server part of the plugin for the *Linux x86* platform, follow thes
 ```sh
 cd server
 make
-```
+``` .
